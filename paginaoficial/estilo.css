@@ -1,0 +1,184 @@
+h1 {
+
+  color: rgb(165, 42, 42);
+  text-align: center
+}
+
+h2 {
+  color: red;
+  text-align: center;
+}
+
+body {
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  header,
+  main,
+  footer {
+    padding: 10px;
+  }
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  nav ul li {
+    margin: 5px 0;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #007BFF;
+  }
+
+  background-color: black;
+}
+
+header {
+  background-color: black;
+  background-position: center;
+
+}
+
+.titulo {
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.carniceria {
+  color: rgb(15, 6, 136);
+  font-style: italic;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.corporativo0 {
+  text-decoration: underline;
+}
+
+.corporativop {
+  color: blue;
+  font-style: italic;
+  font-size: 1em;
+}
+
+.calidad0 {
+  color: red;
+  text-decoration: underline;
+}
+
+.calidadp {
+  color: blue;
+  font-style: italic;
+  font-size: 1em;
+}
+
+.quienessomos {
+  color: blue;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imagepie {
+  margin-left: 400px;
+}
+
+.carnes {
+  margin-left: 150px;
+}
+
+
+.logo {
+  margin-left: 550px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+.boton {
+  background-color: rgb(255, 38, 0);
+}
+
+.boton:active {
+  background-color: blue;
+  transition: 1s;
+}
+
+.cont {
+  text-align: center;
+}
+
+.conthola {
+  display: flex;
+  background-color: aqua;
+  border-radius: 10px;
+  padding: 20px;
+  width: 350px;
+  text-align: center;
+}
+
+input,
+textarea {
+  width: 90%;
+  padding: 6px;
+  margin-bottom: 20%;
+}
+
+.Categorías {
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.carnes {
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.somos {
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.falda {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.contenedorimg {
+  display: flex;
+  text-align: center;
+}
+
+.img2 {
+  margin-left: 20px;
+}
+
+.img3 {
+  margin-left: 20px;
+}
+
+.img4 {
+  margin-left: 20px;
+}
