@@ -1,12 +1,282 @@
+$color-texto: red;
 
+h1 {
+  font-size: 1.5em;
+  color: red (165, 42, 42);
+  text-align: center;
 
-body{
-    
-        h1{
-            color: red;
-        }
-
-
-    
 }
 
+h2 {
+  font-size: 1.2;
+  color: red (255, 0, 21);
+  text-align: center;
+}
+
+p {
+  color: rgb(15, 6, 136);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1px;
+  text-align: center;
+  text-shadow: 2px 2px 10px green;
+}
+
+body {
+  background-image: linear-gradient(to right, white, red);
+
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+
+  }
+
+  header,
+  main,
+  footer {
+    padding: 10px;
+    text-align: justify;
+  }
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  nav ul li {
+    margin: 5px 0;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #007BFF;
+  }
+
+  background-color: black;
+
+}
+
+header {
+  background-color: yellowgreen;
+  padding: 15px;
+  background-position: center;
+  border-radius: 20px;
+
+  nav {
+    background-color: red;
+    border-radius: 20px;
+    padding: 15px;
+
+    ul {
+      background-color: white;
+
+      li {
+        color: $color-texto
+      }
+    }
+  }
+
+}
+
+.titulo {
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.carniceria {
+  color: rgb(15, 6, 136);
+  font-style: italic;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.corporativo0 {
+  text-decoration: underline;
+  color: red;
+}
+
+.corporativop {
+
+  color: rgb(15, 6, 136);
+  font-style: italic;
+  font-size: 1em;
+
+}
+
+.calidad0 {
+  color: red;
+  text-decoration: underline;
+}
+
+.calidadp {
+  color: rgb(15, 6, 136);
+  font-style: italic;
+  font-size: 1em;
+}
+
+.quienessomos {
+  color: rgb(15, 6, 136);
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo {
+  margin-left: 550px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+.boton {
+  background-color: rgb(255, 38, 0);
+}
+
+.boton:active {
+  background-color: blue;
+  transition: 1s;
+}
+
+.cont {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+.conthola {
+  display: flex;
+  background-color: aqua;
+  border-radius: 10px;
+  padding: 20px;
+  width: 350px;
+  text-align: center;
+}
+
+input,
+textarea {
+  width: 90%;
+  padding: 6px;
+  margin-bottom: 20%;
+}
+
+.Categorías {
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contacto1 {
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.carnes {
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 40px;
+
+}
+
+.somos {
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.falda {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.contenedorimg {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+
+.img2 {
+  margin-left: 20px;
+}
+
+.img3 {
+  margin-left: 20px;
+}
+
+.img4 {
+  margin-left: 20px;
+}
+
+.imagepie {
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+}
+
+.carnes1 {
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+}
+
+@media(min-width: 600px) {
+  body {
+    font-size: 18px;
+    padding: 20px;
+  }
+}
+
+img {
+  width: 100%;
+
+}
+
+@media (max-width: 800px) {
+  img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  img {
+    width: 100%;
+
+  }
+}
+.nav-itemdropdown-togge{
+  color: white;
+}
+
+.negocio{
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  background-size: cover;
+}
+
+.chat{
+  color: rgb(15, 6, 136);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: 2px 2px 10px green; 
+}
